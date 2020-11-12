@@ -42,6 +42,8 @@ li{
   color: rgb(255, 255, 255);
   border-radius: 5px;
   padding: 5px;
+  border: 1px solid rgb(233, 126, 99);
+
 }
 /* end UTILITY */
 /* STYLE */
@@ -56,6 +58,10 @@ li{
 .navbar-top-row{
   padding:15px 0px;
 
+}
+div.lang-icon>img{
+  display: inline-block;
+  height: 15px;
 }
 div.nav-top-l>ul{
   display: inline-block;
