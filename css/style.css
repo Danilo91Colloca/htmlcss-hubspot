@@ -23,5 +23,75 @@
 .fr{
   float: right;
 }
+
+li{
+  list-style: none;
+}
+
+.button-a{
+  border-radius: 5px;
+  display: inline-block;
+  color: rgb(233, 126, 99);
+  height: 30px;
+  border: 1px solid rgb(233, 126, 99);
+  padding: 5px;
+}
+.button-b{
+  display: inline-block;
+  background-color:rgb(233, 126, 99);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
 /* end UTILITY */
 /* STYLE */
+
+.navbar-top-row{
+  width: 100%;
+  min-width: 1200px;
+  background-color: rgb(245, 249, 253);
+
+  border:1px solid black;
+}
+.navbar-top-row{
+  padding:15px 0px;
+
+}
+div.nav-top-l>ul{
+  display: inline-block;
+}
+nav.nav-top-l>ul>li{
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 12px;
+}
+nav.nav-top-l>ul>li:first-child{
+  border-right: 2px solid black;
+}
+
+form.search-line{
+  display:inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+  margin-right: 5px;
+  opacity: 0;
+}
+form.search-line:hover{
+  opacity: 1;
+}
+
+
+.search-button{
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 15px;
+}
+.search-button>img{
+  height: 15px;
+  width: 15px;
+}
+nav.navbar-top-r>div.button-a{
+  margin-right: 10px;
+}
+
+div
