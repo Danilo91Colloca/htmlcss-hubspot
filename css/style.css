@@ -8,6 +8,7 @@
 .container{
   width: 1200px;
   margin: 0 auto;
+
 }
 
 .clearfix::after{
@@ -48,12 +49,14 @@ li{
 /* end UTILITY */
 /* STYLE */
 
+
+/* navbar with log in */
 .navbar-top-row{
   width: 100%;
   min-width: 1200px;
   background-color: rgb(245, 249, 253);
 
-  border:1px solid black;
+  border-bottom:1px solid rgb(55, 77, 90);
 }
 .navbar-top-row{
   padding:15px 0px;
@@ -86,7 +89,6 @@ form.search-line:hover{
   opacity: 1;
 }
 
-
 .search-button{
   display: inline-block;
   vertical-align: middle;
@@ -94,10 +96,48 @@ form.search-line:hover{
 }
 .search-button>img{
   height: 15px;
-  width: 15px;
+  width: px;
 }
 nav.navbar-top-r>div.button-a{
   margin-right: 10px;
 }
+/* end navbar with log in */
 
-div
+/* row logo */
+div.row-logo-menu{
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+div.logo{
+  display: inline-block;
+}
+div.logo>img{
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+nav.bar-menu>ul>li{
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+nav.bar-menu>ul>li>span{
+  font-size: 18px;
+  padding: 0 10px;
+}
+/* end row logo */
+
+
+header{
+  width: 100%;
+  min-width: 1200px;
+  background-image: url("../img/jumbotron.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height:700px;
+}
