@@ -254,12 +254,12 @@ div.text-h-box-container> .line{
   border: 1px solid rgb(139, 147, 151);
   margin-bottom: 5px;
 }
-.orange-dott-text{
+.orange-check-text{
   display: inline-block;
   margin-right: 5px;
 }
 
-.orange-dott-text::before{
+.orange-check-text::before{
   content: url("../img/check-orange.png");
   vertical-align: middle;
   margin-right: 5px;
