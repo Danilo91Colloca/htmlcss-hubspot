@@ -29,17 +29,18 @@ li{
   border-radius: 5px;
   display: inline-block;
   color: rgb(233, 126, 99);
-  height: 30px;
   border: 1px solid rgb(233, 126, 99);
-  padding: 5px;
+  padding: 10px;
+  font-size: 12px;
 }
 .button-b{
   display: inline-block;
   background-color:rgb(233, 126, 99);
   color: rgb(255, 255, 255);
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid rgb(233, 126, 99);
+  font-size: 12px;
 }
 
 .text-align{
@@ -65,6 +66,7 @@ div.gradient-row-background{
   width: 100%;
   background-image: linear-gradient(to right, rgb(50, 142, 166) , rgb(103, 195, 176) , rgb(82, 185, 166));
   color: #fff;
+  padding-bottom: 80px;
 }
 
 /* end UTILITY */
@@ -120,6 +122,8 @@ form.search-line:hover{
 nav.navbar-top-r>div.button-a{
   margin-right: 10px;
 }
+
+
 /* end navbar with log in */
 
 /* row logo */
@@ -296,9 +300,8 @@ div.text-h-box-container> .line{
   padding: 5px 0px 20px 0px;
 }
 .vertical-box-content>p{
-  font-size: 15px;
-  line-height: 20px;
-  padding: 0px 15px;
+  font-size: 13px;
+  line-height: 25px;
 }
 
 .v-b-line{
@@ -336,6 +339,7 @@ div.box-pop-feature>div.v-b-button{
 .text-gradient>p{
   line-height: 30px;
   padding: 0px 70px;
+  margin-bottom: 40px;
 }
 
 .box-icon-result{
@@ -361,8 +365,14 @@ div.grid-container .box-best-result:first-child,div.grid-container .box-best-res
 div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-result:nth-child(3), div.grid-container .box-best-result:nth-child(4), div.grid-container .box-best-result:nth-child(6), div.grid-container .box-best-result:nth-child(7), div.grid-container .box-best-result:nth-child(8){
   border-left: 1px solid #fff;
 }
+/* end gradient row */
+/* white big row */
+.white-row{
+  width: 100%;
+  min-width: 1200px;
+  background-color: #fff;
 
-.grid-container{
-  border: 1px dotted red;
-  margin-bottom: 100px;
+  height: 600px;
+
+  border: 1px solid black;
 }
