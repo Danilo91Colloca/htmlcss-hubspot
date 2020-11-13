@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .container{
   width: 1200px;
   margin: 0 auto;
@@ -55,7 +58,7 @@ li{
 }
 .box-best-result{
   width: 25%;
-  height: 300px;
+  height: 230px;
 }
 div.gradient-row-background{
   min-width: 1200px;
@@ -251,7 +254,7 @@ div.text-h-box-content :first-child{
   padding: 50px 0px 25px 0px;
 }
 div.text-h-box-content :nth-child(2) {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   margin-bottom: 15px;
 }
@@ -336,8 +339,8 @@ div.box-pop-feature>div.v-b-button{
 }
 
 .box-icon-result{
-  font-size: 28px;
-  padding: 40px 0px 20px 0px;
+  font-size: 35px;
+  padding: 20px 0px 20px 0px;
 }
 .result :first-child{
   font-size: 50px;
