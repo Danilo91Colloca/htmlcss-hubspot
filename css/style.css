@@ -48,6 +48,12 @@ li{
   box-shadow: 1px 1px 8px rgb(206, 212, 216);
   background-color: rgb(255, 255, 255);
 }
+.orange-check-text::before, div.feature-list-container>ul>li::before{
+  content: url("../img/check-orange.png");
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 
 /* end UTILITY */
 
@@ -184,7 +190,6 @@ div.hook>p{
 main{
   min-width: 1200px;
   width: 100%;
-  height: 900px;
   background-color: rgb(245, 249, 253);
 
 }
@@ -210,6 +215,7 @@ div.slogan-b :nth-child(2){
 /* horizontal box */
 .horizontal-box{
   height: 300px;
+  margin-bottom:50px;
 }
 .icon-button-container{
   padding: 50px 80px;
@@ -235,7 +241,7 @@ div.text-h-box-content :first-child{
   font-size: 20px;
   padding: 50px 0px 25px 0px;
 }
-div.text-h-box-content :nth-child(2){
+div.text-h-box-content :nth-child(2) {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 15px;
@@ -258,9 +264,58 @@ div.text-h-box-container> .line{
   display: inline-block;
   margin-right: 5px;
 }
+/* end horizontal box */
+/* vertical box */
+.row-vertical-box{
+  height:900px;    /*temporaneo*/
+}
+.vertical-box-container{
+  width:30%;
+  text-align: center;
 
-.orange-check-text::before{
-  content: url("../img/check-orange.png");
-  vertical-align: middle;
-  margin-right: 5px;
+  border: 1px solid black; /*momentary*/
+}
+.v-box-center{
+  margin: 0 60px;
+}
+.vertical-box-content{
+  padding: 20px 50px;
+}
+.vertical-box-content>.v-box-icon :first-child{
+  height: 150px;
+}
+.vertical-box-content>h2{
+  font-size: 20px;
+  padding: 5px 0px 20px 0px;
+}
+.vertical-box-content>p{
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0px 15px;
+}
+
+.v-b-line{
+  width: 200px;
+  margin: 50px 20px 25px 20px;
+  height: 1px;
+  border: 1px solid rgb(139, 147, 151);
+}
+
+.box-pop-feature>h3{
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.feature-list-container{
+  text-align: left;
+  font-size: 15px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+div.box-pop-feature>div.v-b-button{
+  padding: 15px 35px;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
