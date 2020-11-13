@@ -43,6 +43,13 @@ li{
   text-align: center;
 }
 
+.box{
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(206, 212, 216);
+  background-color: rgb(255, 255, 255);
+
+}
+
 /* end UTILITY */
 
 
@@ -174,14 +181,11 @@ div.hook>p{
   bottom: 0;
 }
 /* end header */
-
 /* main part of the page*/
-
 main{
   background-color: rgb(245, 249, 253);
   height: 900px;
 }
-
 /* row slogan-b */
 div.icon-cube{
   padding-top: 40px;
@@ -198,5 +202,25 @@ div.slogan-b :first-child{
 div.slogan-b :nth-child(2){
   font-size: 15px;
   padding: 0 250px;
+  margin-bottom: 40px;
 }
 /* end row slogan-b */
+/* horizontal box */
+.horizontal-box{
+  height: 300px;
+}
+.icon-button-container{
+  padding: 50px 80px;
+}
+div.icon-book{
+  margin-bottom: 10px;
+}
+
+div.icon-book img:only-child{
+  height: 80px;
+}
+
+div.icon-button-container> div.button-b{
+  font-size:12px;
+  padding: 15px 30px;
+}
