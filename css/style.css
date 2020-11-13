@@ -4,31 +4,24 @@
   margin: 0;
   padding: 0;
 }
-
 .container{
   width: 1200px;
   margin: 0 auto;
-
 }
-
 .clearfix::after{
   content: "";
   display: table;
   clear: both;
 }
-
 .fl{
   float: left;
 }
-
 .fr{
   float: right;
 }
-
 li{
   list-style: none;
 }
-
 .button-a{
   border-radius: 5px;
   display: inline-block;
@@ -44,12 +37,16 @@ li{
   border-radius: 5px;
   padding: 5px;
   border: 1px solid rgb(233, 126, 99);
-
 }
+
+.content-text-align{
+  text-align: center;
+}
+
 /* end UTILITY */
+
+
 /* STYLE */
-
-
 /* navbar with log in */
 .navbar-top-row{
   width: 100%;
@@ -60,7 +57,6 @@ li{
 }
 .navbar-top-row{
   padding:15px 0px;
-
 }
 div.lang-icon>img{
   display: inline-block;
@@ -77,7 +73,6 @@ nav.nav-top-l>ul>li{
 nav.nav-top-l>ul>li:first-child{
   border-right: 2px solid black;
 }
-
 form.search-line{
   display:inline-block;
   vertical-align: middle;
@@ -115,20 +110,20 @@ div.logo>img{
   height: 40px;
   padding-top: 10px;
   padding-left: 20px;
+  vertical-align: middle;
 }
-
 nav.bar-menu>ul>li{
   display: inline-block;
   padding-top: 10px;
   padding-right: 20px;
   font-size: 15px;
 }
-
 nav.bar-menu>ul>li>span{
   font-size: 18px;
   padding: 0 10px;
 }
 /* end row logo */
+
 /* header */
 header{
   height: 700px;
@@ -139,6 +134,7 @@ header{
   background-repeat: no-repeat;
   background-size: 1350px 700px;
   background-color: rgb(255, 244, 237);
+  border-top: 2px solid white;
 }
 
 div.slogan-container{
@@ -146,7 +142,6 @@ div.slogan-container{
   width: 500px;
   padding-top: 50px;
 }
-
 div.slogan-container>h1{
   font-size: 48px;
   margin-bottom: 20px;
@@ -156,25 +151,52 @@ div.slogan-container>p{
   line-height: 30px;
   margin-bottom: 20px;
 }
-
 div.slogan-container> div.button-b{
   font-size: 12px;
   padding:  18px 35px;
   margin-bottom: 20px;
 }
-
 div.hook>p{
   font-size: 12px;
 }
-
-div.bluestrip-container{
-  padding-top: 115px;
+.bluestrip-container{
+  position: relative;
+  height: 200px;
 }
-div.bluestrip{
+.bluestrip{
+  line-height: 90px;
+  width: 100%;
   height: 90px;
   background-color: rgb(157, 232, 224);
   border-top: 3px solid rgb(43, 62, 80);
   border-bottom: 3px solid rgb(43, 62, 80);
-
+  position: absolute;
+  bottom: 0;
 }
 /* end header */
+
+/* main part of the page*/
+
+main{
+  background-color: rgb(245, 249, 253);
+  height: 900px;
+}
+
+/* row slogan-b */
+div.icon-cube{
+  padding-top: 40px;
+  padding-left: 25px;
+}
+.icon-cube>img{
+  height: 175px;
+}
+
+div.slogan-b :first-child{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+div.slogan-b :nth-child(2){
+  font-size: 15px;
+  padding: 0 250px;
+}
+/* end row slogan-b */
