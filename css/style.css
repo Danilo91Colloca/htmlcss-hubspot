@@ -191,7 +191,7 @@ main{
   min-width: 1200px;
   width: 100%;
   background-color: rgb(245, 249, 253);
-
+  padding-bottom: 50px;
 }
 /* row slogan-b */
 div.icon-cube{
@@ -265,15 +265,10 @@ div.text-h-box-container> .line{
   margin-right: 5px;
 }
 /* end horizontal box */
-/* vertical box */
-.row-vertical-box{
-  height:900px;    /*temporaneo*/
-}
+/* vertical box section */
 .vertical-box-container{
   width:30%;
   text-align: center;
-
-  border: 1px solid black; /*momentary*/
 }
 .v-box-center{
   margin: 0 60px;
@@ -318,4 +313,14 @@ div.box-pop-feature>div.v-b-button{
   padding: 15px 35px;
   font-size: 15px;
   margin-bottom: 5px;
+}
+/* end vertical box section */
+/* gradient row */
+div.gradient-row-background{
+  min-width: 1200px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(50, 142, 166) , rgb(103, 195, 176) , rgb(82, 185, 166));
+
+  height: 600px; /*momentaneo*/
+
 }
