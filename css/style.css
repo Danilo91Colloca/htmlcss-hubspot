@@ -129,15 +129,52 @@ nav.bar-menu>ul>li>span{
   padding: 0 10px;
 }
 /* end row logo */
-
-
+/* header */
 header{
+  height: 700px;
   width: 100%;
   min-width: 1200px;
   background-image: url("../img/jumbotron.png");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
-
-  height:700px;
+  background-size: 1350px 700px;
+  background-color: rgb(255, 244, 237);
 }
+
+div.slogan-container{
+  height: 500px;
+  width: 500px;
+  padding-top: 50px;
+}
+
+div.slogan-container>h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+div.slogan-container>p{
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+div.slogan-container> div.button-b{
+  font-size: 12px;
+  padding:  18px 35px;
+  margin-bottom: 20px;
+}
+
+div.hook>p{
+  font-size: 12px;
+}
+
+div.bluestrip-container{
+  padding-top: 115px;
+}
+div.bluestrip{
+  height: 90px;
+  background-color: rgb(157, 232, 224);
+  border-top: 3px solid rgb(43, 62, 80);
+  border-bottom: 3px solid rgb(43, 62, 80);
+
+}
+/* end header */
