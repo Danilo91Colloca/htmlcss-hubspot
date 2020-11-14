@@ -42,11 +42,9 @@ li{
   border: 1px solid rgb(233, 126, 99);
   font-size: 12px;
 }
-
 .text-align{
   text-align: center;
 }
-
 .box{
   border-radius: 5px;
   box-shadow: 1px 1px 8px rgb(206, 212, 216);
@@ -64,13 +62,11 @@ li{
 div.gradient-row-background{
   min-width: 1200px;
   width: 100%;
-  background-image: linear-gradient(to right, rgb(50, 142, 166) , rgb(103, 195, 176) , rgb(82, 185, 166));
+  background-image: linear-gradient(to right, rgb(50, 162, 186) , rgb(63, 215, 206) , rgb(82, 205, 206));
   color: #fff;
   padding-bottom: 80px;
 }
-
 /* end UTILITY */
-
 
 /* STYLE */
 /* navbar with log in */
@@ -122,10 +118,7 @@ form.search-line:hover{
 nav.navbar-top-r>div.button-a{
   margin-right: 10px;
 }
-
-
 /* end navbar with log in */
-
 /* row logo */
 div.row-logo-menu{
   background-color: rgb(255, 255, 255);
@@ -151,7 +144,6 @@ nav.bar-menu>ul>li>span{
   padding: 0 10px;
 }
 /* end row logo */
-
 /* header */
 header{
   height: 700px;
@@ -372,7 +364,7 @@ div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-r
   min-width: 1200px;
   background-color: #fff;
   color: rgb(55, 71, 89);
-  height: 600px;   /*temp*/
+  margin-bottom: 50px
 }
 .customers-numb-container{
   display: inline-block;
@@ -392,6 +384,7 @@ div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-r
 .partners-container{
   width: 60%;
   padding-top: 50px;
+  margin-bottom: 35px;
 }
 .partners-container>img{
   padding: 3px;
@@ -414,14 +407,17 @@ div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-r
   display: inline-block;
   width:250px;
 }
-/* .woman-container>img{
-  width:100%;
-  top: 0px;
-} */
 .background-woman{
   background-image: url("../img/woman.webp");
-  background-size: 280px;
+  background-size: 300px;
   background-repeat: no-repeat;
   background-position: bottom right;
+}
+/* end white big row */
+/* footer */
 
+footer{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(54, 73, 89);
 }
