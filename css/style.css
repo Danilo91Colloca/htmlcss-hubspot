@@ -93,7 +93,7 @@ div.nav-top-l>ul{
 }
 nav.nav-top-l>ul>li{
   display: inline-block;
-  padding: 0 20px;
+  padding: 6px 20px 0px 20px;
   font-size: 12px;
 }
 nav.nav-top-l>ul>li:first-child{
@@ -371,8 +371,32 @@ div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-r
   width: 100%;
   min-width: 1200px;
   background-color: #fff;
+  color: rgb(55, 71, 89);
 
-  height: 600px;
+  height: 600px;   /*temp*/
+}
+.customers-numb-container{
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 80px;
+  width: 25%;
+}
+.customers-numb-container>h2{
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.customers-numb-container>p{
+  line-height: 25px;
+}
 
-  border: 1px solid black;
+.partners-container{
+  width: 60%;
+  padding-top: 50px;
+}
+
+.partners-container>img{
+  padding: 3px;
+  width:145px;
+  vertical-align: middle;
+
 }
