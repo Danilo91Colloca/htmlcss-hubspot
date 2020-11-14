@@ -372,7 +372,6 @@ div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-r
   min-width: 1200px;
   background-color: #fff;
   color: rgb(55, 71, 89);
-
   height: 600px;   /*temp*/
 }
 .customers-numb-container{
@@ -380,23 +379,49 @@ div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-r
   padding-top: 50px;
   padding-left: 80px;
   width: 25%;
+  margin-bottom: 100px;
 }
 .customers-numb-container>h2{
   font-size: 34px;
   margin-bottom: 30px;
 }
-.customers-numb-container>p{
+.customers-numb-container>p, .start-grow-container>p{
   line-height: 25px;
+  font-size: 14px;
 }
-
 .partners-container{
   width: 60%;
   padding-top: 50px;
 }
-
 .partners-container>img{
   padding: 3px;
   width:145px;
   vertical-align: middle;
+}
+
+.start-grow-container{
+  display: inline-block;
+  width: 35%;
+}
+.start-grow-container>h2, .start-grow-container>p, .start-grow-container>div.button-b {
+  margin-bottom: 20px;
+}
+
+.start-grow-container> p:nth-child(4){
+  font-size: 10px;
+}
+.woman-container{
+  display: inline-block;
+  width:250px;
+}
+/* .woman-container>img{
+  width:100%;
+  top: 0px;
+} */
+.background-woman{
+  background-image: url("../img/woman.webp");
+  background-size: 280px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 
 }
