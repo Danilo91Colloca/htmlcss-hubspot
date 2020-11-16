@@ -61,6 +61,12 @@ li{
   width: 25%;
   height: 230px;
 }
+.white-grid-border-r{
+  border-right: 1px solid #fff;
+}
+.white-grid-border-b{
+  border-bottom: 1px solid #fff;
+}
 /* end UTILITY */
 
 /* STYLE */
@@ -349,12 +355,6 @@ div.gradient-row-background{
 }
 .result :nth-child(3){
   padding-top: 45px;
-}
-div.grid-container .box-best-result:first-child,div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-result:nth-child(3), div.grid-container .box-best-result:nth-child(4){
-  border-bottom: 1px solid #fff;
-}
-div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-result:nth-child(3), div.grid-container .box-best-result:nth-child(4), div.grid-container .box-best-result:nth-child(6), div.grid-container .box-best-result:nth-child(7), div.grid-container .box-best-result:nth-child(8){
-  border-left: 1px solid #fff;
 }
 /* end gradient row */
 /* white big row */
