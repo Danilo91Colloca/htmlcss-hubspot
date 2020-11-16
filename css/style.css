@@ -26,13 +26,15 @@ body{
 li{
   list-style: none;
 }
+p, li, i, .font-size12px{
+  font-size: 12px;
+}
 .button-a{
   border-radius: 5px;
   display: inline-block;
   color: #EE7E62;
   border: 1px solid #EE7E62;
   padding: 10px;
-  font-size: 12px;
 }
 .button-b{
   display: inline-block;
@@ -41,7 +43,6 @@ li{
   border-radius: 5px;
   padding: 10px;
   border: 1px solid #EE7E62;
-  font-size: 12px;
   font-weight: 500;
 }
 .text-align{
@@ -90,7 +91,6 @@ div.nav-top-l>ul{
 nav.nav-top-l>ul>li{
   display: inline-block;
   padding: 6px 20px 0px 20px;
-  font-size: 12px;
 }
 nav.nav-top-l>ul>li:first-child{
   border-right: 2px solid #374759;
@@ -136,10 +136,8 @@ nav.bar-menu>ul>li{
   display: inline-block;
   padding-top: 10px;
   padding-right: 10px;
-  font-size: 15px;
 }
 nav.bar-menu>ul>li>i{
-  font-size: 12px;
   font-weight: 200;
   margin-right: 20px;
 }
@@ -153,10 +151,9 @@ header{
   background-position: right;
   background-repeat: no-repeat;
   background-size: 1350px 700px;
-  background-color: rgb(255, 244, 237);
-  border-top: 2px solid white;
+  background-color: #fdf3f0;
+  border-top: 2px solid #fff;
 }
-
 div.slogan-container{
   height: 500px;
   width: 500px;
@@ -167,16 +164,12 @@ div.slogan-container>h1{
   margin-bottom: 20px;
 }
 div.slogan-container>p{
-  font-size: 15px;
   line-height: 30px;
   margin-bottom: 20px;
 }
 div.slogan-container> div.button-b{
   padding:  18px 35px;
   margin-bottom: 20px;
-}
-div.hook>p{
-  font-size: 12px;
 }
 .bluestrip-container{
   position: relative;
@@ -212,7 +205,6 @@ div.slogan-b :first-child{
   margin-bottom: 15px;
 }
 div.slogan-b :nth-child(2){
-  font-size: 15px;
   padding: 0 250px;
   margin-bottom: 40px;
 }
@@ -289,7 +281,6 @@ div.text-horizontal-box-container> .line{
   padding: 5px 0px 20px 0px;
 }
 .vertical-box-content>p{
-  font-size: 13px;
   line-height: 25px;
 }
 
@@ -378,7 +369,6 @@ div.gradient-row-background{
 }
 .customers-numb-container>p, .start-grow-container>p{
   line-height: 25px;
-  font-size: 14px;
 }
 .partners-container{
   width: 45%;
@@ -391,17 +381,12 @@ div.gradient-row-background{
   width: 20%;
   vertical-align: middle;
 }
-
-.start-grow-container{
+.start-growing-container{
   display: inline-block;
   width: 35%;
 }
-.start-grow-container>h2, .start-grow-container>p, .start-grow-container>div.button-b {
+.start-growing-container>h2, .start-growing-container>p, .start-growing-container>div.button-b {
   margin-bottom: 20px;
-}
-
-.start-grow-container> p:nth-child(4){
-  font-size: 10px;
 }
 .woman-container{
   display: inline-block;
@@ -414,19 +399,19 @@ div.gradient-row-background{
   background-position: bottom right;
 }
 /* end white big row */
-
 /* FOOTER */
 /* footer vertical box */
 footer{
   width: 100%;
+  height: 600px;
+  min-width: 1200px;
   background-color: #364959;
+  color: #CDD6E1;
 }
-
 .box-list-footer{
   padding: 30px 20px;
   width: 24%;
   line-height: 35px;
-  color: #A6AEB7;
 }
 .box-list-footer>ul>li.title-box-list-footer{
   color: #fff;
@@ -438,18 +423,15 @@ footer{
 }
 .button-box-list-footer{
   display: inline-block;
-  background-color:#DBDEE0;
   color: #364959;
   border-radius: 5px;
   padding: 0px 10px;
   border: 1px solid #DBDEE0;
-  font-size: 12px;
+  background-color:#DBDEE0;
   margin-bottom: 10px;
 }
-
 .box-list-footer>ul>li.social-icon-box-list-footer>i{
   display: inline-block;
-  color: #DBDEE0;
   height: 25px;
   margin-right: 20px;
 }
@@ -459,7 +441,6 @@ footer{
 /* end footer vertical box */
 /* footer languages section  */
 .box-languages-footer{
-  color: #DBDEE0;
   height: 50px;
   border-bottom: 1px solid #CDD6E1;
   margin-bottom: 25px;
@@ -472,7 +453,6 @@ footer{
 /* copyryght section */
 div.row-copyright-privacy{
   padding-bottom: 40px;
-
 }
 .row-copyright-privacy>.logo-hubspot-copyright>img{
   height: 40px;
@@ -480,12 +460,9 @@ div.row-copyright-privacy{
   margin-bottom: 5px;
 }
 .logo-hubspot-copyright>p{
-  color: #DBDEE0;
-  font-size: 12px;
+  color: #fff;
 }
 div.privacy-footer-box>span{
-  font-size: 10px;
   font-weight: 300;
-  color:#CDD6E1;
   padding-left: 10px;
 }
