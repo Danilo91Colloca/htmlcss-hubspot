@@ -420,7 +420,6 @@ div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-r
 
 footer{
   width: 100%;
-  height: 600px;
   background-color: rgb(54, 73, 89);
 }
 
@@ -455,5 +454,25 @@ footer{
   color: #DBDEE0;
   height: 25px;
   margin-right: 20px;
+}
+.list-footer-container{
+  margin-bottom:50px;
+}
 
+/* footer languages section  */
+.box-languages-footer{
+  color: #DBDEE0;
+  widht:100%;
+  height: 50px;
+  border-bottom: 1px solid #CDD6E1;
+  margin-bottom: 25px;
+}
+.box-languages-footer>nav>ul>li{
+  display: inline-block;
+  margin-right:20px;
+}
+/* end footer languages section */
+/* copyryght section */
+.row-copyright>.logo-hubspot-copyright>img{
+  height: 40px;
 }
