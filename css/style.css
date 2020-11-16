@@ -382,14 +382,15 @@ div.grid-container .box-best-result:nth-child(2), div.grid-container .box-best-r
   font-size: 14px;
 }
 .partners-container{
-  width: 60%;
+  width: 45%;
   padding-top: 50px;
+  padding-right: 70px; 
   margin-bottom: 35px;
 }
 .partners-container>img{
   padding: 3px;
-  width:145px;
-  vertical-align: middle;
+  width: 20%;
+  /* vertical-align: middle; */
 }
 
 .start-grow-container{
