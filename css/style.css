@@ -160,6 +160,10 @@ form.search-line:hover {
 nav.navbar-top-r > div.button-a {
   margin-right: 10px;
 }
+
+.padding-correction {
+  padding-left: 15px;
+}
 /* end navbar with log in */
 
 /* row logo e nav prodotti */
