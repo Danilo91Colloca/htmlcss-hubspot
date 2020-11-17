@@ -7,6 +7,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
   color:#374759;
+  font-size: 14px;
 }
 .container{
   width: 1200px;
@@ -26,8 +27,8 @@ body{
 li{
   list-style: none;
 }
-p, li, i, .font-size12px{
-  font-size: 12px;
+.line-height{
+  line-height: 25px;
 }
 .button-a{
   border-radius: 5px;
@@ -163,7 +164,6 @@ div.slogan-container>h1{
   margin-bottom: 20px;
 }
 div.slogan-container>p{
-  line-height: 30px;
   margin-bottom: 20px;
 }
 div.slogan-container> div.button-b{
@@ -238,8 +238,6 @@ div.text-horizontal-box-content :first-child{
   padding: 50px 0px 25px 0px;
 }
 div.text-horizontal-box-content :nth-child(2) {
-  font-size: 14px;
-  line-height: 25px;
   margin-bottom: 15px;
 }
 div.text-horizontal-box-container> h3{
@@ -279,10 +277,6 @@ div.text-horizontal-box-container> .line{
   font-size: 20px;
   padding: 5px 0px 20px 0px;
 }
-.vertical-box-content>p{
-  line-height: 25px;
-}
-
 .vertical-box-line{
   width: 200px;
   margin: 50px 20px 25px 20px;
@@ -292,7 +286,7 @@ div.text-horizontal-box-container> .line{
 
 .box-pop-feature>h3{
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 17px;
   padding-bottom: 20px;
 }
 
@@ -305,7 +299,6 @@ div.text-horizontal-box-container> .line{
 
 div.box-pop-feature>div.vertical-box-button{
   padding: 15px 35px;
-  font-size: 15px;
   margin-bottom: 5px;
 }
 /* end vertical box section */
@@ -317,21 +310,20 @@ div.gradient-row-background{
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
   padding-bottom: 80px;
 }
-
-
 .text-gradient>h2{
   font-size: 30px;
   padding: 50px 120px 20px 120px;
 }
 .text-gradient>p{
-  line-height: 30px;
   padding: 0px 70px;
   margin-bottom: 40px;
 }
-
 .box-icon-result{
-  font-size: 35px;
+  font-size: 40px;
   padding: 20px 0px 20px 0px;
+}
+.box-icon-result>img{
+  height:40px;
 }
 .result :first-child{
   font-size: 50px;
@@ -344,8 +336,10 @@ div.gradient-row-background{
   padding-left: 5px;
 }
 .result :nth-child(3){
-  padding-top: 45px;
+  padding-top: 35px;
+  padding-bottom: 25px;
 }
+
 /* end gradient row */
 /* white big row */
 .white-row{
@@ -366,9 +360,6 @@ div.gradient-row-background{
   font-size: 34px;
   margin-bottom: 30px;
 }
-.customers-numb-container>p, .start-grow-container>p{
-  line-height: 25px;
-}
 .partners-container{
   width: 45%;
   padding-top: 50px;
@@ -386,6 +377,9 @@ div.gradient-row-background{
 }
 .start-growing-container>h2, .start-growing-container>p, .start-growing-container>div.button-b {
   margin-bottom: 20px;
+}
+.start-growing-container>p.font-resize-small{
+  font-size: 10px;
 }
 .woman-container{
   display: inline-block;
