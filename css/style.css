@@ -95,6 +95,18 @@ li {
 .inline-block {
   display: inline-block;
 }
+
+.button-hover:hover{
+  opacity: 0.5;
+}
+.text-hover:hover{
+  text-decoration: underline;
+  color: 	#2B65EC;
+}
+.text-hover-two:hover{
+  text-decoration: underline;
+  color: 	#98AFC7;
+}
 /* end UTILITY */
 
 /* STYLE */
